@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About - Candy Crush</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+<link rel="stylesheet" href="AboutStyles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/7b55396e84.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<body>
+<header id="home">
+	<h1>CANDY CRUSH</h1>
+</header>
+<nav>
+	<a href="1-home.html"><i class="fas fa-home" style="padding-right:10px"></i>HOME</a>
+	<a href="#about"><i class="fas fa-info-circle" style="padding-right:10px"></i>ABOUT GAME</a>
+	<a href="3-trailer.html"><i class="fas fa-video" style="padding-right:10px"></i>GAME TRAILER</a>
+	<div class="bgm">
+	<audio id="myAudio" width="100%" height="100%" align="center">
+	<source src="cndycrushsound.mp3" type="audio/mpeg">
+	</audio>	
+	<button class="play" onclick="playAudio()" type="button">PLAY BGM<i class="fas fa-music" style="padding-left:10px"></i></button>
+	<script>
+		var x = document.getElementById("myAudio"); 
+		function playAudio() { 
+		x.play(); 
+		} 
+		</script>
+	</div>
+	<div class="dropdown">
+	<button class="dropbtn">DOWNLOAD GAME<i class="fas fa-download" style="padding-left:10px"></i></button>
+		<div class="dropdown-content">
+			<a href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en&gl=US&pli=1" target="_blank">Google Play</a>
+			<a href="https://apps.apple.com/us/app/candy-crush-saga/id553834731" target="_blank">App Store</a>
+	</div>
+</nav>
+
+<section id="about">
+<div class="row">
+	<div class="column1">
+	<h2>What is Candy Crush about?</h2>
+	<img class="images" src="candycrush1.png" alt="Cat 1"></img>
+	<br>
+	<p>Gameplay</p>
+	<p style="text-indent: 10%;">The main objective is to match three or more candies of the same color by swapping adjacent candies on a game board.
+		Matching candies creates special candies and triggers chain reactions, earning players points.
+		Each level has specific objectives, such as reaching a certain score, clearing jelly, or bringing down ingredients.		
+	</p>
+	<p>Levels and Episodes</p>
+	<p style="text-indent: 10%;">"Candy Crush" is divided into levels, grouped into episodes. New levels and episodes are periodically added through updates.
+		As players progress, they encounter different challenges and obstacles, including blockers, bombs, and more complex level designs.
+	</p>
+	</div>
+	<div class="column2">
+	<h2>Who created Candy Crush?</h2>
+	<img class="images" src="candycrush2.png" alt="Cat 2"></img>
+	<br>
+	<p style="text-indent: 10%;">"Candy Crush" was created by the game development studio King. The company, originally known as King.com, was founded in 2003 by Riccardo Zacconi, Sebastian Knutsson, Thomas Hartwig, Lars Markgren, and Patrik Stymne. The headquarters is located in London, United Kingdom.</u>.
+	</p>
+	<br>
+	<p style="text-align:left;"><b>Contact Developer</b> <i class="fas fa-phone-square-alt" style="padding-left:5px;"></i></p>
+	<table id="contact">
+		<tr>
+		<td>Website</td>
+		<td><a class="tdlink" href="https://hideacorp.blogspot.com" target="_blank">https://hideacorp.blogspot.com</td>
+		</tr>
+		<tr>
+		<td>Email 1</td>
+		<td><a class="tdlink" href="mailto:hideacorp@gmail.com" target="_blank">hideacorp@gmail.com</td>
+		</tr>
+		<tr>
+		<td>Email 2</td>
+		<td><a class="tdlink" href="mailto:support@hideaent.com" target="_blank">support@hideaent.com</td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div class="column3">
+	<h2>Why play Candy Crush?</h2>
+	<img class="images" src="candycrush3.png" alt="Cat 3"></img>
+	<br>
+	<p>The game offers the following:</p>
+	<ul>
+		<li>Entertainment and Enjoyment;</li>
+		<li>Casual Gameplay;</li>
+		<li>easy-to-understand mechanics;</li>
+		<li>and manageable quests.</li>
+	</ul>
+	<p>Moreover, the game is also very user-friendly! <i class='far fa-smile'></i></p>
+	<p style="text-indent: 10%;">In summary, "Candy Crush" combines a straightforward yet challenging gameplay design with social and competitive elements, making it an appealing and enduring choice for a diverse audience of mobile gamers.
+
+
+
+
+
+
+	</p>
+	</div>
+</div>
+</section>
+
+<section id="footer">
+<div class="footer">
+	<p>Website created by Joann Balmes of IT 3104</p>
+	<p><a id="flink" href="mailto:21-00791@g.batstate-u.edu.ph" target="_blank">21-00791@g.batstate-u.edu.ph</a></p>
+</div>
+</section>
+
+</body>
+</html>
